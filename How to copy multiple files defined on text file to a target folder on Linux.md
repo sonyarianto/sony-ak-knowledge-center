@@ -12,7 +12,7 @@ while read path; do
 done
 ~~~
 
-Save it to `mass_copy.sh`.
+Save it to `mass_copy.sh` and `chmod` it to `777`.
 
 Now suppose you have 5 files to copy on file `files_to_be_copied'
 
@@ -27,7 +27,7 @@ Now suppose you have 5 files to copy on file `files_to_be_copied'
 Run the `mass_copy` script like below:
 
 ~~~
-./mass_copy < files_to_be_copied
+./mass_copy.sh < files_to_be_copied
 ~~~
 
 Now all of your files on 'files_to_be_copied' will be coppied to folder `/this/is/your/target/folder/`. If the those files already exists on target then files will be overwritten.
