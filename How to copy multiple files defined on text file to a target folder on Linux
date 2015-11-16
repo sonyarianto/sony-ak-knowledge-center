@@ -1,0 +1,12 @@
+Create the copy script like below:
+
+~~~#!/usr/bin/env bash
+
+dest="/this/is/your/target/folder/";
+
+while read path; do
+    target=$path;
+    c="";
+    cp "$path" "$dest"/"$target";
+done
+~~~
