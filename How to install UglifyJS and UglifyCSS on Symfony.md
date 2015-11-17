@@ -28,7 +28,7 @@ It will install UglifyCSS locally on your `app/Resources/node_modules/.bin/uglif
 
 Now open `config.yml` and edit like below.
 
-~~~
+~~~yml
 # app/config/config.yml
 assetic:
     # the path to the node executable and maybe different with your system
