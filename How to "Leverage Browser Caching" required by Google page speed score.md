@@ -12,3 +12,6 @@ ExpiresByType application/javascript "access 1 week"
 ~~~
 
 Above is just an example, you can improvise based on your requirements.
+
+References:
+- https://httpd.apache.org/docs/2.2/mod/mod_expires.html
