@@ -59,3 +59,6 @@ and
 ~~~
 
 Now delete your Symfony `cache` and try to access the website and now your minification of JS and CSS should be success.
+
+References:
+- http://symfony.com/doc/current/cookbook/assetic/uglifyjs.html
