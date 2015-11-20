@@ -1,6 +1,6 @@
 Create the copy script like below:
 
-~~~
+~~~bash
 #!/usr/bin/env bash
 
 dest="/this/is/your/target/folder/";
@@ -13,7 +13,7 @@ done
 
 Save it to `mass_copy.sh` and `chmod` it to `777`.
 
-Now suppose you have 5 files to copy on file `files_to_be_copied'
+Now suppose you have 5 files to copy on file `files_to_be_copied`
 
 ~~~
 /source/folder/of/files/1.txt
@@ -25,7 +25,7 @@ Now suppose you have 5 files to copy on file `files_to_be_copied'
 
 Run the `mass_copy` script like below:
 
-~~~
+~~~bash
 ./mass_copy.sh < files_to_be_copied
 ~~~
 
