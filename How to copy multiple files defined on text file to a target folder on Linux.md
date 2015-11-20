@@ -7,7 +7,6 @@ dest="/this/is/your/target/folder/";
 
 while read path; do
     target=$path;
-    c="";
     cp "$path" "$dest"/"$target";
 done
 ~~~
