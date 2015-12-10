@@ -1,4 +1,4 @@
-`parent()`
+What is `parent()` function on Twig?
 
 When a template uses inheritance, it's possible to render the contents of the parent block when overriding a block by using the parent function:
 
