@@ -2,7 +2,7 @@ I have question in Stackovrflow and here is great answer.
 
 I have code like below.
 
-~~~
+~~~html
 <!DOCTYPE html>
 <html>
   <head>
@@ -38,7 +38,7 @@ Now here is the answer.
 
 Try the code below. You need to use document.getElementById() to get the value of the hidden field then convert it to number before using it as a zoom parameter.
 
-~~~
+~~~html
 <!DOCTYPE html>
 <html>
   <head>
