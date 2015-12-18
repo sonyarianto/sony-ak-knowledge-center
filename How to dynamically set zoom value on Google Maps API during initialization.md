@@ -68,5 +68,5 @@ var map;
 </script>
 ~~~
 
-Hope it helps! Answer from (http://stackoverflow.com/users/5637474/grenzfries)
+Hope it helps! Answer from http://stackoverflow.com/users/5637474/grenzfries
 
