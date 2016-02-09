@@ -5,29 +5,29 @@ If your system already have imagick from remi repo then please remove it first.
 Now we will show you to build imagick from source.
 
 Download from latest source.
-~~~
+~~~bash
 wget http://www.imagemagick.org/download/ImageMagick.tar.gz
 ~~~
 
 Extract it.
-~~~
+~~~bash
 tar xvzf ImageMagick.tar.gz
 ~~~
 
 Go inside the folder and type these commands.
-~~~
+~~~bash
 ./configure
 make
 make install
 ~~~
 
 Now test the installed version by typing this.
-~~~
+~~~bash
 convert --version
 ~~~
 
 Now install the PHP library using this command.
-~~~
+~~~bash
 pecl install imagick
 ~~~
 
