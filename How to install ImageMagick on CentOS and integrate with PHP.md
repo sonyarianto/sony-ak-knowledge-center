@@ -21,11 +21,6 @@ make
 make install
 ~~~
 
-Now test the installed version by typing this.
-~~~bash
-convert --version
-~~~
-
 Now install the PHP library using this command.
 ~~~bash
 pecl install imagick
@@ -35,4 +30,11 @@ Add these line to php.ini.
 ~~~
 extension=imagick.so
 ~~~
+
+Now test the installed version by typing this.
+~~~bash
+convert --version
+~~~
+
+You are done!
 
