@@ -32,8 +32,8 @@ foreach($domElemsToRemove as $domElement){
 $content = $xmlDoc->saveHTML();
 
 // cleaning up phase
-$newsContent = preg_replace('~<(?:!DOCTYPE|/?(?:html|body))[^>]*>\s*~i', '', $content);
-$newsContent = trim(str_replace (array("\r\n", "\n", "\r"), '', $content));
+$content = preg_replace('~<(?:!DOCTYPE|/?(?:html|body))[^>]*>\s*~i', '', $content);
+$content = trim(str_replace (array("\r\n", "\n", "\r"), '', $content));
 
 // custom cleaning up phase
 $content = preg_replace('#<a.*?>(.*?)</a>#i', '\1', $content); // remove hyperlinks
