@@ -1,6 +1,6 @@
 ```php
 // content
-$xPathQuery = $xPathDoc->query("(//div[@class='detail']//div[@class='page']//div[@class='tru'])[1]");
+$xPathQuery = $xPathDoc->query("YOUR_XPATH_QUERY_HERE");
 
 // reconstructing all nodes become content data
 $innerHtml = "";
@@ -15,26 +15,26 @@ foreach($xPathQuery as $eachNode) {
   $innerHtml = "";
 }
 $innerHtml = trim(implode("", $arrInnerHtml));
-$newsContent = $innerHtml;
+$content = $innerHtml;
 
 // filtering phase
-@$xmlDoc->loadHTML($newsContent);
+@$xmlDoc->loadHTML($content);
 $domNodeList = $xmlDoc->getElementsByTagname('*');
 $domElemsToRemove = array();
 foreach ($domNodeList as $domElement) {
-  if($domElement->nodeName == 'div' && $domElement->getAttribute('class') == 'related') {
+  if($domElement->nodeName == 'YOUR_TAG_HERE' && $domElement->getAttribute('YOUR_ATTRIBUTE_HERE') == 'YOUR_ATTRIBUTE_VALUE_HERE') {
     $domElemsToRemove[] = $domElement;
   }
 }
 foreach($domElemsToRemove as $domElement){
   $domElement->parentNode->removeChild($domElement);
 }
-$newsContent = $xmlDoc->saveHTML();
+$content = $xmlDoc->saveHTML();
 
 // cleaning up phase
-$newsContent = preg_replace('~<(?:!DOCTYPE|/?(?:html|body))[^>]*>\s*~i', '', $newsContent);
-$newsContent = trim(str_replace (array("\r\n", "\n", "\r"), '', $newsContent));
+$newsContent = preg_replace('~<(?:!DOCTYPE|/?(?:html|body))[^>]*>\s*~i', '', $content);
+$newsContent = trim(str_replace (array("\r\n", "\n", "\r"), '', $content));
 
 // custom cleaning up phase
-$newsContent = preg_replace('#<a.*?>(.*?)</a>#i', '\1', $newsContent); // remove hyperlinks
+$content = preg_replace('#<a.*?>(.*?)</a>#i', '\1', $content); // remove hyperlinks
 ```
