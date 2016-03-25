@@ -1,5 +1,3 @@
-Just look at this code.
-
 ```php
 // content
 $xPathQuery = $xPathDoc->query("(//div[@class='detail']//div[@class='page']//div[@class='tru'])[1]");
