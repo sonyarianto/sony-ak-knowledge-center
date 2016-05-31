@@ -7,7 +7,7 @@ http://mirror.centos.org/centos/6/SCL/x86_64/repodata/repomd.xml: [Errno 14] PYC
 
 Here is the workaround
 ```bash
-sudo yum remove centos-release-scl
+sudo yum remove centos-release-SCL
 sudo yum update # Update to CentOS 6.8
 sudo yum install centos-release-scl
 sudo yum update
