@@ -1,0 +1,3 @@
+```bash
+ip addr show
+```
