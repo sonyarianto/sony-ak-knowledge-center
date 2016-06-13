@@ -1,0 +1,10 @@
+Just read at http://kb.cloudkilat.com/informasi-umum/cara-sshkeys-support-kilatvm-cloudkilat
+
+Paste ssh keys CloudKilat ke dalam file tersebut :
+```
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAwahdsFIKYWALeC6C6mOhO8zpy57gFZa1V0U0+rB8ECOuLehqCj4nS5S7t9csDqlPLUOmsDgFyxO1NmHMHu/HktnTcvOif7+EjhrTMsiTX/9VIrV5G5pHDeFDpA2+TvApFApXo1ERzOtFRMwF3NpIQf/r2tyVZyt13srDpuburSus9CUxtfpigDnvNpdMYf3LvWCRr56Hr077OXN0YOqrcT9sICr1YzHP1v6vL18ziqHl9iUT33ChYAwpmRRuAHBKHXeJFlWxnOBxr1i8D5GBQPmwmCU810CKOkBQ91QjD6G1F4vLD42Srnv95dDD21pOL7Ws9hUZYP2p0Kt58dEyjQ== support@cloudkilat.com
+```
+or type this on command line
+```
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAwahdsFIKYWALeC6C6mOhO8zpy57gFZa1V0U0+rB8ECOuLehqCj4nS5S7t9csDqlPLUOmsDgFyxO1NmHMHu/HktnTcvOif7+EjhrTMsiTX/9VIrV5G5pHDeFDpA2+TvApFApXo1ERzOtFRMwF3NpIQf/r2tyVZyt13srDpuburSus9CUxtfpigDnvNpdMYf3LvWCRr56Hr077OXN0YOqrcT9sICr1YzHP1v6vL18ziqHl9iUT33ChYAwpmRRuAHBKHXeJFlWxnOBxr1i8D5GBQPmwmCU810CKOkBQ91QjD6G1F4vLD42Srnv95dDD21pOL7Ws9hUZYP2p0Kt58dEyjQ== support@cloudkilat.com" > ~/.ssh/authorized_keys
+```
