@@ -5,8 +5,9 @@ tar xvzf redis-stable.tar.gz
 cd redis-stable
 make
 ```
-Read here for proper install on initscripts http://redis.io/topics/quickstart
-When this command `sudo update-rc.d redis_6379 defaults` failed then modify the header
+Follow steps for proper installation using `initscripts` on http://redis.io/topics/quickstart
+
+When you type this command `sudo update-rc.d redis_6379 defaults` and you failed then modify the header of file
 ```
 /etc/init.d/redis_6379
 ```
