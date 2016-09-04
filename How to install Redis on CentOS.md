@@ -1,4 +1,4 @@
-Do this first.
+Download Redis latest stable version. Do not use your Linux distribution Redis package since it quite old.
 ```bash
 wget http://download.redis.io/redis-stable.tar.gz
 tar xvzf redis-stable.tar.gz
