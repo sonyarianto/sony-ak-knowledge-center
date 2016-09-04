@@ -32,4 +32,13 @@ then run
 ```bash
 chkconfig --level 2345 redis_6379 on
 ```
-That's it.
+Now your Redis will start on next CentOS boot.
+OK now test to run the redis server by typing
+```
+/etc/init.d/redis_6379 start
+```
+then try the connection by typing
+```
+redis-cli ping
+```
+if everything OK then Redis will reply with string `PONG`.
