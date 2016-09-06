@@ -18,7 +18,7 @@ rem Generate "put" command for each line in list file
 for /F %%i in (your_text_file_that_contains_list_of_files_to_be_uploaded) do (
 	set local_file=%%i
 	set local_file_win_format=!local_file:/=\!
-	echo put "!local_file_win_format!" "%REMOTE_PATH%" >> script.tmp
+	echo put "!local_file_win_format!" "%REMOTE_PATH%!local_file!" >> script.tmp
 )
  
 echo exit >> script.tmp
