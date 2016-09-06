@@ -1,4 +1,4 @@
-How does one retreive the text in a node without selecting the text in the children?
+How does one retrieve the text in a node without selecting the text in the children?
 ```html
 <div id="comment">
      <div class="title">Editor's Description</div>
