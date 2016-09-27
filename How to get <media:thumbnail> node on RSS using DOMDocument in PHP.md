@@ -6,7 +6,7 @@ On the header of XML usually there is like below.
 <channel xmlns:media="http://search.yahoo.com/mrss/">
 ```
 
-On XML document usually there is like below.
+On XML document usually there is like below and later you want to get url value from below data.
 
 ```xml
 <media:thumbnail url="https://apac-webapp-assets.ballball.com/prod/uploads/articles/articleimageversion/720p-Serge%20Aurier%20two%20months%20jail.jpg" width="460" height="302"></media:thumbnail>
