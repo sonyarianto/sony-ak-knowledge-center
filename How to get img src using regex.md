@@ -14,3 +14,7 @@ preg_match('/<\s*?img\s+[^>]*?\s*src\s*=\s*(["\'])((\\\\?+.)*?)\1[^>]*?>/', $str
 
 var_dump($matches);
 ```
+
+Read at http://stackoverflow.com/questions/1196570/using-regular-expressions-to-extract-the-first-image-source-from-html-codes
+
+and test the regex at https://regex101.com/
