@@ -1,0 +1,3 @@
+```bash
+redis-server --version
+```
