@@ -12,3 +12,8 @@ define('FTP_HOST', 'your_ssh_host_or_localhost');
 define('FS_METHOD', 'ssh2'); // this is fix
 ```
 That's it now go to your `Wordpress` admin and try to install any plugin.
+
+Or you can set ownership on your Wordpress folder to web server user. Example like below.
+
+1. Go to your WP folder from SSH
+2. Just type `sudo chown -R apache:apache *`
