@@ -1,0 +1,3 @@
+```
+ntpd --version
+```
