@@ -6,3 +6,5 @@ Example:
 2. System will update the `composer.lock` file
 3. Copy this `composer.lock` to your server (development or production)
 4. Do `composer install` or `php composer.phar install' on your server with minimal RAM
+
+Reff: http://stackoverflow.com/questions/36394296/composer-is-killed-automatically-from-ssh
