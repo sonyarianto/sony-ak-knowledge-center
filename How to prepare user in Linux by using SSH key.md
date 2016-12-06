@@ -22,7 +22,12 @@
 Suppose we want to create user `sony`.
 
 1. Login with `ec2-user`
-2. Type `useradd -G wheel sony` it will create user `sony` that belongs to group called `wheel`
+2. Type
+
+  ```
+  useradd -G wheel sony
+  ```
+  it will create user `sony` that belongs to group called `wheel`
 3. Or you can type `useradd sony` if you just want to create user but later you have to type `usermod -a -G wheel sony` to add user `sony` to `wheel` group
 4. Additional notes: we will configure to become `root` for only users who belongs to `wheel` group later
 5. To confirm point 2 process type `id sony` it will shows like below.
@@ -50,7 +55,11 @@ Suppose we want to create user `sony`.
 12. Create `.ssh` directory (by typing `mkdir .ssh`)
 13. Create file `authorized_keys` inside the `.ssh` directory (by typing `vi .ssh/authorized_keys`)
 14. Copy public key to that file. Please be careful while copy and paste (must be precision)
-15. Change ownership of .ssh directory (by type `chown -R sony:sony .ssh/`)
+15. Change ownership of .ssh directory by typing:
+
+  ```
+  chown -R sony:sony .ssh/
+  ```
 16. Change permission by typing:
   
   ```
