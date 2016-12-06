@@ -50,10 +50,11 @@ Suppose we want to create user `sony`.
 12. Create `.ssh` directory (by typing `mkdir .ssh`)
 13. Create file `authorized_keys` inside the `.ssh` directory (by typing `vi .ssh/authorized_keys`)
 14. Copy public key to that file. Please be careful while copy and paste (must be precision)
-15. Change ownership of .ssh directory (by type `chown -R sony:sony .ssh`)
+15. Change ownership of .ssh directory (by type `chown -R sony:sony .ssh/`)
 16. Change permission by typing:
+  
   ```
-  chmod 700 .ssh
+  chmod 700 .ssh/
   chmod 600 .ssh/authorized_keys
   ```
 17. That's it, now you should be able to login to EC2 instance using your `sony` user with private key and also able to become `root`.
