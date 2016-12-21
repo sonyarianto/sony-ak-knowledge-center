@@ -1,5 +1,6 @@
 * http://mysql.rjweb.org/doc.php/partitionmaint
 * https://dev.mysql.com/doc/refman/5.7/en/partitioning-management-range-list.html
+* https://dev.mysql.com/doc/refman/5.7/en/alter-table-partition-operations.html
 
 Notes:
 
