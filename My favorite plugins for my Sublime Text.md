@@ -1,0 +1,3 @@
+* GitGutter
+* SFTP
+* Sidebar Enhancement
