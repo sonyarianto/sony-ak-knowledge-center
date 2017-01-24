@@ -1,0 +1,3 @@
+```
+ls -lR /path/to/folder | grep ^l
+```
