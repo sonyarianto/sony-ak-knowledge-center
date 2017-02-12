@@ -1,0 +1,8 @@
+* https://asm.ca.com/en/ping.php (good)
+* http://ceipam.eu/en/dnslookup.php (not bad)
+* https://dnschecker.org/ (good)
+* http://viewdns.info/propagation/ (not bad)
+* https://www.nexcess.net/resources/tools/global-dns-checker/ (good)
+* https://www.site24x7.com/check-website-availability.html (good)
+* https://www.dnsunlimited.com/propagation_check (good)
+* https://www.whatsmydns.net/ (good)
