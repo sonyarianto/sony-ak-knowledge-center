@@ -6,3 +6,4 @@ preg_match($re, $str, $matches);
 
 // Print the entire match result
 print_r($matches);
+```
