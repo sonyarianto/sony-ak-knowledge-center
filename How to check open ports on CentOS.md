@@ -1,0 +1,3 @@
+```
+nmap -sT -O localhost
+```
