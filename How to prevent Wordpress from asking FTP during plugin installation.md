@@ -1,3 +1,5 @@
+Scenario 1:
+
 I assume you have VPS that you can do anything on your server.
 
 1. We will enable upgrade/install plugin by SSH2.
@@ -17,3 +19,11 @@ Or you can set ownership on your Wordpress folder to web server user. Example li
 
 1. Go to your WP folder from SSH
 2. Just type `sudo chown -R apache:apache *`
+
+Scenario 2:
+
+Just run this.
+
+```
+sudo chown -R apache:apache path/to/wordpress
+```
