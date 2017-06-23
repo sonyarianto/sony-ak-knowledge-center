@@ -11,6 +11,10 @@ vi /etc/ssh/sshd_config
 ```
 PermitRootLogin no
 ```
+* Add this config
+```
+AllowUsers your_prefer_user
+```
 * Save it then restart the SSH daemon
 ```
 systemctl reload sshd
