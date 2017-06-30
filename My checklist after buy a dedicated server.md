@@ -1,0 +1,21 @@
+- Use CentOS 7
+- Login first as root
+- Do `yum update`
+- Create my user and add to `wheel`
+- Set password to my user
+- Do `yum install net-tools`
+- Set sshd to forbid root login
+- Set hostname with name that's look cool
+- Set datetime to Asia/Jakarta
+- Do `yum install epel-release`
+- Install htop, compile it from source
+- Install JDK
+- Remove `bind` if exists
+- Check /etc/resolv.conf and /etc/sysconfig/network-scripts/* and fill with 8.8.8.8 and 8.8.4.4
+- Install `Nginx` from its official repository
+- Install PHP 7.1.x from IUS repository
+- Set in php.ini timezone to `Asia/Jakarta`
+- Install MySQL and don't use the fucking MariaDB from its official repository
+- Install memcached server
+- Install memcached client from IUS and also opcache
+- Do some database migration (if my projects is move from old server)
