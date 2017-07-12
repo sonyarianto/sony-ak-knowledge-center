@@ -14,4 +14,10 @@ or
 git show --pretty="" --name-only bd61ad98
 ```
 
-The `bd61ad98` is a sample of commit hash id
+or
+
+```
+git show --no-notes --name-only --oneline --pretty="" bd61ad98 bd61ad00
+```
+
+The `bd61ad98` and `bd61ad00` is a sample of commit hash id
