@@ -24,7 +24,6 @@ yum search google-chrome
 It will show like below.
 
 ```
-[root@infra-1-nocix-uscentral yum.repos.d]# yum search google-chrome
 Loaded plugins: fastestmirror
 Loading mirror speeds from cached hostfile
  * base: mirror.sesp.northwestern.edu
@@ -39,11 +38,20 @@ google-chrome-stable.x86_64 : Google Chrome
 google-chrome-unstable.x86_64 : Google Chrome (unstable)
 
   Name and summary matches only, use "search all" for everything.
-[root@infra-1-nocix-uscentral yum.repos.d]#
 ```
 
 OK it means Google Chrome is ready to install. Just install the stable version.
 
 ```
 yum install google-chrome-stable
+```
+
+Check the version with this.
+
+```
+google-chrome --version
+```
+On mine will show this.
+```
+Google Chrome 59.0.3071.115
 ```
