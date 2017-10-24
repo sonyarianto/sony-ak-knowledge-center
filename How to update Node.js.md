@@ -13,8 +13,14 @@ then to update Node is easy with
 n stable
 ```
 
+or
+
+```
+n latest
+```
+
 then check with
 
 ```
-node --version
+node -v
 ```
