@@ -1,0 +1,9 @@
+* https://thenextweb.com/full-stack/2017/10/17/your-company-will-use-blockchain-in-less-than-10-years-heres-how/
+* https://bitcoin.org/bitcoin.pdf
+* https://en.wikipedia.org/wiki/Bitcoin_network
+* https://blockchain.info/api
+* https://gourl.io/bitcoin-payment-gateway-api.html
+* https://github.com/cryptoapi/Payment-Gateway
+* https://github.com/blockchain/receive-payments-demos
+* https://github.com/rhondle/BlockChain
+* https://github.com/blockchain/api-v1-client-php
