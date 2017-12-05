@@ -19,12 +19,18 @@ Go inside the folder and type these commands.
 ./configure
 make
 make install
+ldconfig /usr/local/lib
 ~~~
 
 Now install the PHP library using this command.
 ~~~bash
 pecl install imagick
 ~~~
+
+If imagick already installed then remove first with
+```bash
+pecl uninstall imagick
+```
 
 Add these line to php.ini.
 ~~~
