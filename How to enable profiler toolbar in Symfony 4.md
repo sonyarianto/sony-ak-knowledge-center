@@ -1,0 +1,3 @@
+```
+composer req profiler
+```
