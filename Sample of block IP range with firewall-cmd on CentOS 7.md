@@ -22,3 +22,8 @@ or with this
 ```
 firewall-cmd --zone=public --list-all
 ```
+
+To remove rich-rule on firewalld use this example.
+```
+firewall-cmd --permanent --zone=public --remove-rich-rule="rule family=ipv4 source address=141.8.144.5/32 reject"
+```
