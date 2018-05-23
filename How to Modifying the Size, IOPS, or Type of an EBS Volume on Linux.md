@@ -1,7 +1,6 @@
 Just read here:
 - http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-expand-volume.html
 - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/recognize-expanded-volume-linux.html
-- 
 
 Or I experience this. I have EC2 (m3.medium) with only 50GB space and I need to expand to 70GB.
 
