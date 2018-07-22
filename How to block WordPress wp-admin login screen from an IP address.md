@@ -1,6 +1,6 @@
 ```
 RewriteEngine on
-RewriteCond %{REQUEST_URI} ^(.*)?wp-login\.php(.*)$ [OR]
+RewriteCond %{REQUEST_URI} ^(.*)?wp-login\.php(.*)$
 # Use below if non behind proxy
 #RewriteCond %{REMOTE_ADDR} !^111\.111\.111\.111
 # Use below if behind proxy
