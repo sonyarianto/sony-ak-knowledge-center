@@ -1,10 +1,15 @@
-First see all installed plugins.
+Update the WP CLI.
+```
+wp cli update --allow-root
+```
+
+See all installed plugins.
 
 ```
 wp plugin list --allow-root
 ```
 
-Example results like below.
+Results like below.
 
 ```
 +---------------------+----------+-----------+---------+
@@ -22,41 +27,41 @@ Example results like below.
 +---------------------+----------+-----------+---------+
 ```
 
-To update then do this.
+Update each plugin.
 
 ```
 wp plugin update all-in-one-seo-pack --allow-root
 ```
 
-Now see the WordPress version with this.
+See the current WordPress version.
 
 ```
 wp core version --allow-root
 ```
 
-It will display like below.
+Result like below.
 ```
 4.9.7
 ```
 
-Check is there any update with this command.
+Check is there any WordPress update.
 
 ```
 wp core check-update --allow-root
 ```
 
-To update WordPress do this.
+Update WordPress core only.
 
 ```
 wp core update --allow-root
 ```
-
-Do WordPress DB check
+Upgrade or update WordPress database.
+```
+wp core update-db --allow-root
+```
+Check WordPress database.
 ```
 wp db check --allow-root
 ```
 
-Do upgrade or update WP database
-```
-wp core update-db --allow-root
-```
+
