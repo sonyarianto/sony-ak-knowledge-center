@@ -63,5 +63,21 @@ Check WordPress database.
 ```
 wp db check --allow-root
 ```
-
+List of current installed themes.
+```
+wp theme list --allow-root
+```
+Results like below.
+```
++------------+----------+-----------+---------+
+| name       | status   | update    | version |
++------------+----------+-----------+---------+
+| iconic-one | inactive | available | 1.7.8   |
+| point      | active   | none      | 2.0.6   |
++------------+----------+-----------+---------+
+```
+Update particular theme.
+```
+wp theme update iconic-one --allow-root
+```
 
