@@ -27,3 +27,9 @@ To remove rich-rule on firewalld use this example.
 ```
 firewall-cmd --permanent --zone=public --remove-rich-rule="rule family=ipv4 source address=141.8.144.5/32 reject"
 ```
+
+To open port only for specific IP address.
+```
+firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="1.2.3.4/32" port protocol="tcp" port="4567" accept'
+```
+
