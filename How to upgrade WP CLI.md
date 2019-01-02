@@ -11,3 +11,8 @@ md5 hash verified: fa0fb31d1462a5c39a8d4d2cdb369462
 New version works. Proceeding to replace.
 Success: Updated WP-CLI to 2.1.0.
 ```
+
+Check with this command.
+```
+wp --allow-root --info
+```
