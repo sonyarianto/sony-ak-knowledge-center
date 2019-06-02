@@ -6,3 +6,15 @@ Sample
 ```
 rewrite ^/listings/(.*)$ /listing.html?listing=$1 last;
 ```
+
+```
+rewrite ^/kampret/?$ /kampret.php last;
+```
+will match only /kampret and /kampret/ and not /kampreto
+
+but if you write
+
+```
+rewrite ^/kampret /kampret.php last;
+```
+will match /kampret and /kampreto and /kampretokskjksdjskd bla bla bla.
