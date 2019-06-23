@@ -3,19 +3,11 @@
 $xPathQuery = $xPathDoc->query("YOUR_XPATH_QUERY_HERE");
 
 // reconstructing all nodes become content data
-$innerHtml = "";
-$arrInnerHtml = array();
-foreach($xPathQuery as $eachNode) {
-  foreach($eachNode->childNodes as $eachNodeItem) {
-    $tmpDoc = new DOMDocument();
-    $tmpDoc->appendChild($tmpDoc->importNode($eachNodeItem, true));
-    $innerHtml .= $tmpDoc->saveHTML();
-  }
-  $arrInnerHtml[] = $innerHtml;
-  $innerHtml = "";
-}
-$innerHtml = trim(implode("", $arrInnerHtml));
-$content = $innerHtml;
+// sample 1
+$content = $xPathQuery->c14n();
+
+// sample 2
+$content = $xPathQuery->ownerDocument->saveHTML($xPathQuery);
 
 // filtering phase
 @$xmlDoc->loadHTML($content);
