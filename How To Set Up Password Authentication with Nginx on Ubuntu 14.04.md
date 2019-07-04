@@ -5,7 +5,7 @@ Just read at https://www.digitalocean.com/community/tutorials/how-to-set-up-pass
 and example to change the basic auth realm password is
 
 ```
-htpasswd /your/htpasswd/folder/.htpasswd youruser
+htpasswd -c /your/htpasswd/folder/.htpasswd youruser
 ```
 
 which is `youruser` is your existing basic auth realm username.
