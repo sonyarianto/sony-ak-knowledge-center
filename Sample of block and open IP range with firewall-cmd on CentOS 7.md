@@ -30,6 +30,6 @@ firewall-cmd --permanent --zone=public --remove-rich-rule="rule family=ipv4 sour
 
 To open port only for specific IP address.
 ```
-firewall-cmd --permanent --zone=public --add-rich-rule=' rule family="ipv4" source address="1.2.3.4/32" port protocol="tcp" port="4567" accept'
+firewall-cmd --permanent --zone=public --add-rich-rule='rule family="ipv4" source address="1.2.3.4/32" port protocol="tcp" port="4567" accept'
 ```
 
