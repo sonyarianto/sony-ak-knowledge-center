@@ -1,0 +1,1 @@
+Just follow this http://www.ubuntubuzz.com/2018/03/disable-gnome-shell-animation-on-ubuntu-1710-and-1804.html#targetText=Disable%20GNOME%20Shell%20Animation%20on%20Ubuntu%2017.10%20and%2018.04&targetText=Then%20apply%20it%20by%20pressing,Shell%20to%20follow%20your%20command.
