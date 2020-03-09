@@ -1,4 +1,4 @@
-Please add this on location block.
+Please add this on location block on your Nginx domain configuration.
 
 ```
 proxy_buffering on;
